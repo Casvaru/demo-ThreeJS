@@ -29,7 +29,7 @@ scene.add( light2 );
 // Se importa un modelo 3d con el loader de GLTF
 const loader = new GLTFLoader();
 
-const modelHouse = './assets/hosejapanese.gltf' // Modelo a renderizar
+const modelHouse = './hosejapanese.gltf' // Modelo a renderizar
 
 // Usamos la librería del loader y cargamos el modelo
 loader.load(modelHouse, function ( gltf ) {
